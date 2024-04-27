@@ -1,43 +1,41 @@
-# Additional Resources
+# Additional Resources for Cosmos-Based Chains Security
 
-This list includes a variety of tools, libraries, and reading materials that are useful for anyone looking to deepen their knowledge or enhance the security of blockchain networks, particularly those built on the Cosmos network.
+This list provides targeted resources for enhancing security on the Cosmos network, supporting developers and security professionals in building and maintaining secure blockchain applications.
 
 ## Tools and Libraries
 
-- **Cosmos SDK**: The framework for building blockchain applications in Go. It is used to build blockchain protocols on top of Tendermint, providing the foundational tools necessary for a decentralized app.
+- **Cosmos SDK**: The foundational framework for building blockchain applications on the Cosmos network.
   - [Cosmos SDK GitHub Repository](https://github.com/cosmos/cosmos-sdk)
 
-- **Tendermint Core**: Byzantine Fault Tolerant (BFT) middleware that can securely and consistently replicate an application on multiple machines.
+- **Tendermint Core**: The consensus engine of the Cosmos network, providing Byzantine Fault Tolerance (BFT).
   - [Tendermint Core GitHub Repository](https://github.com/tendermint/tendermint)
 
-- **OpenZeppelin**: A library for secure smart contract development. It provides reusable components to build custom smart contracts and more complex decentralized systems.
-  - [OpenZeppelin Website](https://openzeppelin.com/)
+- **Gaia**: The implementation of the Cosmos Hub, built using the Cosmos SDK.
+  - [Gaia GitHub Repository](https://github.com/cosmos/gaia)
 
-- **Certora**: A tool for formal verification of smart contracts, helping developers to verify that their code meets its specifications.
-  - [Certora Prover](https://www.certora.com/)
+- **Starport**: A tool for scaffolding blockchain applications on the Cosmos network.
+  - [Starport GitHub Repository](https://github.com/tendermint/starport)
 
 ## Educational Resources
 
-- **"Mastering Blockchain" by Imran Bashir**: A comprehensive guide to blockchain technology, covering the technical and cryptographic underpinnings essential for secure, decentralized systems.
-  - Available on [Amazon](https://www.amazon.com/Mastering-Blockchain-distributed-cryptography-decentralized/dp/183921319X/)
+- **Cosmos Security Handbook: Part 1 - Core Chain**: This handbook provides crucial security insights specific to Cosmos-based appchains, highlighting areas such as non-determinism, in-protocol panics, and gas and fee management.
+  - [Read the Cosmos Security Handbook](https://docs.cosmos.network/main/build/building-apps/security-part-1)
 
-- **Blockchain Security Blogs by Trail of Bits**: Provides deep dives into various aspects of blockchain technology security, offering case studies, security analyses, and best practices.
-  - [Trail of Bits Blog](https://blog.trailofbits.com/)
+- **Trail of Bits - Cosmos Guidelines**: Detailed guidelines from Trail of Bits on building secure smart contracts for Cosmos, covering common pitfalls and best security practices.
+  - [View Trail of Bits Cosmos Guidelines on GitHub](https://github.com/crytic/building-secure-contracts/tree/master/not-so-smart-contracts/cosmos)
 
-## Regulatory and Compliance Guides
+- **Cosmos Network Official Documentation**: Offers comprehensive guides, tutorials, and references on using the Cosmos SDK and Tendermint Core, including security practices.
+  - [Cosmos Documentation](https://docs.cosmos.network/)
 
-- **Coin Center**: A non-profit research and advocacy center focused on the public policy issues facing cryptocurrency technologies such as Bitcoin and Ethereum.
-  - [Coin Center Website](https://www.coincenter.org/)
+- **IBC Protocol Documentation**: Understanding IBC is crucial for security in inter-blockchain communications.
+  - [IBC Protocol Docs](https://docs.cosmos.network/master/ibc/overview.html)
 
-- **Global Digital Finance (GDF)**: An industry membership body that promotes the adoption of best practices for crypto and digital assets and digital finance technologies, through the development of conduct standards in a shared engagement forum with market participants, policymakers, and regulators.
-  - [GDF Code of Conduct](https://www.gdf.io/)
+## Community and Conferences
 
-## Security Conferences
+- **Cosmos Community Forums**: Engage with other developers and security experts in the Cosmos community to discuss security concerns and solutions.
+  - [Cosmos Forum](https://forum.cosmos.network/)
 
-- **Black Hat Blockchain**: An annual conference focusing specifically on blockchain security, featuring presentations from some of the leading voices in blockchain technology and security.
-  - [Black Hat Blockchain Conference](https://www.blackhat.com/)
+- **Cosmoverse Conference**: An annual conference where developers, validators, and delegates from the Cosmos ecosystem gather to discuss new developments, including security enhancements.
+  - [Cosmoverse](https://cosmoverse.org/)
 
-- **DEF CON Blockchain Village**: A space at the DEF CON conference dedicated to all things blockchain, exploring the security implications and solutions for blockchain technologies.
-  - [DEF CON Blockchain Village](https://www.defcon.org/)
-
-This list will be updated periodically to reflect the latest tools, trends, and educational opportunities in the field of blockchain security. For developers and security professionals working within the Cosmos ecosystem, staying updated with these resources is crucial for maintaining and enhancing the security of their platforms.
+This list will be updated periodically to reflect the latest tools, trends, and educational opportunities in the field of blockchain security.
