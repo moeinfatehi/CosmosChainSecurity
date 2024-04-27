@@ -59,6 +59,7 @@ Below is the complete listing of all topics covered in this repository, each lin
 ### Appendices and Additional Resources
 - [**Glossary**](/docs/appendices/glossary.md)
 - [**Resources**](/docs/appendices/resources.md)
+  - Detailed references and additional materials for further exploration of blockchain security.
 - [**Contributing Guidelines**](CONTRIBUTING.md)
 - [**License**](LICENSE.md)
 
